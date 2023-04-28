@@ -6,7 +6,7 @@ pipeline {
         
         stage('Detect language') {
             steps {
-                step([$class: 'LanguageDetector', personalToken: 'Run34509', userT: 'oken4567', repoURL: 'https://github.com/oken4567/tte' ])
+                step([$class: 'LanguageDetector', personalToken: 'Run34509', userT: 'oken4567', repoURL: 'https://github.com/oken4567/hinw' ])
             }
             
         
